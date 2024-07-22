@@ -31,7 +31,13 @@ main {
   position: absolute;
   top: -35rem;
   left: -50rem;
-  z-index: -50;
+  z-index: -1;
+}
+.bottom-img {
+  position: absolute;
+  bottom: -35rem;
+  right: -50rem;
+  z-index: -1;
 }
 
 .main-content {
@@ -125,8 +131,16 @@ hr {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
   .main-content {
     width: 357px;
+  }
+  .top-img {
+    top: -30rem;
+    left: -15rem;
+  }
+  .bottom-img {
+    bottom: -30rem;
+    right: -15rem;
   }
 }
